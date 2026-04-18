@@ -1,0 +1,18 @@
+---
+email_address: sample@example.com
+cloudflare_email_address: sample@example.com
+cloudflare_account_api_key: 0000000000000000000000
+CN: example.com
+cert_path: ./crt/{{ CN }}
+cert_name: cert.pem
+cert_chain: chain.pem
+priv_key: priv.key
+csr_file: req.csr
+le_key_path: /tmp
+le_key_filename: priv_le.key
+cert_fullchain: fullchain.pem
+acme_directory: https://acme-staging-v02.api.letsencrypt.org/directory
+#subject_alt_name:
+#  - DNS:www.example.com
+
+
